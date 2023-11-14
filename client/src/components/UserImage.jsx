@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://nu-social-app.onrender.com/assets/${image}`}
+        src={`https://nu-backend-anz5.onrender.com/assets/${image}`}
       />
     </Box>
   );
