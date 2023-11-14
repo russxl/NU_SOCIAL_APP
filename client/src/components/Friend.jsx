@@ -25,7 +25,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://nu-social-app.onrender.com/users/${_id}/${friendId}`,
+      `https://nu-backend-anz5.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
