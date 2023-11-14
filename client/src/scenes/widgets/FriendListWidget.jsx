@@ -13,7 +13,7 @@ const FriendListWidget = ({ userId }) => {
 
   const getFriends = async () => {
     const response = await fetch(
-      `https://nu-social-app.onrender.com/${userId}/friends`,
+      `https://nu-backend-anz5.onrender.com/${userId}/friends`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
